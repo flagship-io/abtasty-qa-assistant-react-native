@@ -51,8 +51,6 @@ jobs:
         working-directory: ABTastyQAassistant
         run: yarn pack --dry-run
 
-      - name: Publish to npm
+      - name: Publish to npm with OIDC
         working-directory: ABTastyQAassistant
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: NODE_AUTH_TOKEN="" npm publish --provenance --access public
