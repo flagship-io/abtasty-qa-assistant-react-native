@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`EventList Component should handle hits with complex data 1`] = `
+<FlatList
+  data={
+    [
+      {
+        "array": [
+          1,
+          2,
+          3,
+        ],
+        "data": {
+          "nested": {
+            "deep": "value",
+          },
+        },
+        "t": "CONVERSION",
+        "timestamp": 1609459200000,
+        "value": 100,
+      },
+    ]
+  }
+  keyExtractor={[Function]}
+  renderItem={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+/>
+`;
+
+exports[`EventList Component should render hits in order 1`] = `
+<FlatList
+  data={
+    [
+      {
+        "t": "FIRST",
+        "timestamp": 1,
+      },
+      {
+        "t": "SECOND",
+        "timestamp": 2,
+      },
+    ]
+  }
+  keyExtractor={[Function]}
+  renderItem={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+/>
+`;
+
+exports[`EventList Component should render with empty hits array 1`] = `
+<FlatList
+  data={[]}
+  keyExtractor={[Function]}
+  renderItem={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+/>
+`;
+
+exports[`EventList Component should render with multiple hits 1`] = `
+<FlatList
+  data={
+    [
+      {
+        "t": "PAGE_VIEW",
+        "timestamp": 1609459200000,
+      },
+      {
+        "t": "CLICK",
+        "timestamp": 1609459199000,
+      },
+      {
+        "t": "CONVERSION",
+        "timestamp": 1609459198000,
+      },
+    ]
+  }
+  keyExtractor={[Function]}
+  renderItem={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+/>
+`;
+
+exports[`EventList Component should render with single hit 1`] = `
+<FlatList
+  data={
+    [
+      {
+        "t": "PAGE_VIEW",
+        "timestamp": 1609459200000,
+      },
+    ]
+  }
+  keyExtractor={[Function]}
+  renderItem={[Function]}
+  style={
+    {
+      "flex": 1,
+    }
+  }
+/>
+`;

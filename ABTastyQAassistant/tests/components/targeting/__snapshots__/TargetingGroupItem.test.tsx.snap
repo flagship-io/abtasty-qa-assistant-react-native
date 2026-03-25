@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TargetingGroupItem should apply background and border colors from hook 1`] = `
+<View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        testID="icon"
+      >
+        Icon: #F44336
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderRadius": 4,
+            "flex": 15,
+            "padding": 10,
+          },
+          {
+            "backgroundColor": "#FFEBEE",
+            "borderColor": "#F44336",
+            "borderWidth": 1,
+          },
+        ]
+      }
+    >
+      <View
+        testID="targeting-item"
+      >
+        <Text>
+          country: US AND
+        </Text>
+      </View>
+      <View
+        testID="targeting-item"
+      >
+        <Text>
+          age: 18
+        </Text>
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EDEDF2",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginLeft": "8%",
+        "marginTop": 10,
+        "padding": 8,
+      }
+    }
+  >
+    OR
+  </Text>
+</View>
+`;
+
+exports[`TargetingGroupItem should not show "OR" separator when last group 1`] = `
+<View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        testID="icon"
+      >
+        Icon: #4CAF50
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderRadius": 4,
+            "flex": 15,
+            "padding": 10,
+          },
+          {
+            "backgroundColor": "#E8F5E9",
+            "borderColor": "#4CAF50",
+            "borderWidth": 1,
+          },
+        ]
+      }
+    >
+      <View
+        testID="targeting-item"
+      >
+        <Text>
+          country: US AND
+        </Text>
+      </View>
+      <View
+        testID="targeting-item"
+      >
+        <Text>
+          age: 18
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TargetingGroupItem should render icon with correct color from useTargetingBackground 1`] = `
+<View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        testID="icon"
+      >
+        Icon: #4CAF50
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderRadius": 4,
+            "flex": 15,
+            "padding": 10,
+          },
+          {
+            "backgroundColor": "#E8F5E9",
+            "borderColor": "#4CAF50",
+            "borderWidth": 1,
+          },
+        ]
+      }
+    >
+      <View
+        testID="targeting-item"
+      >
+        <Text>
+          country: US AND
+        </Text>
+      </View>
+      <View
+        testID="targeting-item"
+      >
+        <Text>
+          age: 18
+        </Text>
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EDEDF2",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginLeft": "8%",
+        "marginTop": 10,
+        "padding": 8,
+      }
+    }
+  >
+    OR
+  </Text>
+</View>
+`;
+
+exports[`TargetingGroupItem should render targeting group with multiple targetings 1`] = `
+<View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        testID="icon"
+      >
+        Icon: #4CAF50
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderRadius": 4,
+            "flex": 15,
+            "padding": 10,
+          },
+          {
+            "backgroundColor": "#E8F5E9",
+            "borderColor": "#4CAF50",
+            "borderWidth": 1,
+          },
+        ]
+      }
+    >
+      <View
+        testID="targeting-item"
+      >
+        <Text>
+          country: US AND
+        </Text>
+      </View>
+      <View
+        testID="targeting-item"
+      >
+        <Text>
+          age: 18
+        </Text>
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EDEDF2",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginLeft": "8%",
+        "marginTop": 10,
+        "padding": 8,
+      }
+    }
+  >
+    OR
+  </Text>
+</View>
+`;
+
+exports[`TargetingGroupItem should show "OR" separator when not last group 1`] = `
+<View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        testID="icon"
+      >
+        Icon: #4CAF50
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderRadius": 4,
+            "flex": 15,
+            "padding": 10,
+          },
+          {
+            "backgroundColor": "#E8F5E9",
+            "borderColor": "#4CAF50",
+            "borderWidth": 1,
+          },
+        ]
+      }
+    >
+      <View
+        testID="targeting-item"
+      >
+        <Text>
+          country: US AND
+        </Text>
+      </View>
+      <View
+        testID="targeting-item"
+      >
+        <Text>
+          age: 18
+        </Text>
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EDEDF2",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginLeft": "8%",
+        "marginTop": 10,
+        "padding": 8,
+      }
+    }
+  >
+    OR
+  </Text>
+</View>
+`;

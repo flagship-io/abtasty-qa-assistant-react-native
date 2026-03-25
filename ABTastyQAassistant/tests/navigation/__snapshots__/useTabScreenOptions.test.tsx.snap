@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`useTabScreenOptions should return default options with all style configurations 1`] = `
+{
+  "tabBarActiveTintColor": "#3100BF",
+  "tabBarGap": 8,
+  "tabBarInactiveTintColor": "#5E5E6E",
+  "tabBarIndicatorStyle": {
+    "backgroundColor": "#3100BF",
+    "height": 4,
+  },
+  "tabBarItemStyle": {
+    "width": "auto",
+  },
+  "tabBarLabelStyle": {
+    "fontSize": 14,
+    "fontWeight": "600",
+    "textTransform": "none",
+  },
+  "tabBarScrollEnabled": true,
+  "tabBarStyle": {
+    "backgroundColor": "#E2DCF4",
+  },
+}
+`;

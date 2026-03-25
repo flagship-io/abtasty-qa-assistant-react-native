@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CampaignsScreen should render with both accepted and rejected campaigns 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    SummaryBar: 5 campaigns
+  </Text>
+  <ScrollView
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "flex": 1,
+      }
+    }
+  >
+    <Text>
+      CollapsibleCampaigns: 3 campaigns, status=ACCEPTED, expanded=true
+    </Text>
+    <Text>
+      CollapsibleCampaigns: 2 campaigns, status=REJECTED, expanded=undefined
+    </Text>
+  </ScrollView>
+</View>
+`;
+
+exports[`CampaignsScreen should render with no campaigns 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    SummaryBar: 0 campaigns
+  </Text>
+  <ScrollView
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "flex": 1,
+      }
+    }
+  >
+    <Text>
+      CollapsibleCampaigns: 0 campaigns, status=ACCEPTED, expanded=true
+    </Text>
+    <Text>
+      CollapsibleCampaigns: 0 campaigns, status=REJECTED, expanded=undefined
+    </Text>
+  </ScrollView>
+</View>
+`;
+
+exports[`CampaignsScreen should render with only accepted campaigns 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    SummaryBar: 2 campaigns
+  </Text>
+  <ScrollView
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "flex": 1,
+      }
+    }
+  >
+    <Text>
+      CollapsibleCampaigns: 2 campaigns, status=ACCEPTED, expanded=true
+    </Text>
+    <Text>
+      CollapsibleCampaigns: 0 campaigns, status=REJECTED, expanded=undefined
+    </Text>
+  </ScrollView>
+</View>
+`;
+
+exports[`CampaignsScreen should render with only rejected campaigns 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    SummaryBar: 1 campaigns
+  </Text>
+  <ScrollView
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "flex": 1,
+      }
+    }
+  >
+    <Text>
+      CollapsibleCampaigns: 0 campaigns, status=ACCEPTED, expanded=true
+    </Text>
+    <Text>
+      CollapsibleCampaigns: 1 campaigns, status=REJECTED, expanded=undefined
+    </Text>
+  </ScrollView>
+</View>
+`;

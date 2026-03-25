@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Button Component should apply custom styling properties 1`] = `
+<TouchableOpacity
+  style={
+    [
+      {
+        "backgroundColor": "#ff0000",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+      },
+      undefined,
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "justifyContent": "center",
+        "padding": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#2A2A3C",
+        },
+        {
+          "fontSize": 12,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    Colored
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`Button Component should apply custom styling properties 2`] = `
+<TouchableOpacity
+  style={
+    [
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 16,
+        "borderWidth": 1,
+      },
+      undefined,
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "justifyContent": "center",
+        "padding": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#2A2A3C",
+        },
+        {
+          "fontSize": 12,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    Rounded
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`Button Component should apply custom styling properties 3`] = `
+<TouchableOpacity
+  style={
+    [
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderColor": "#000000",
+        "borderRadius": 4,
+        "borderWidth": 2,
+      },
+      undefined,
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "justifyContent": "center",
+        "padding": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#2A2A3C",
+        },
+        {
+          "fontSize": 12,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    Bordered
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`Button Component should apply custom styling properties 4`] = `
+<TouchableOpacity
+  style={
+    [
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+      },
+      undefined,
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "justifyContent": "center",
+        "padding": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#ffffff",
+        },
+        {
+          "fontSize": 12,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    Colored Text
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`Button Component should apply custom styling properties 5`] = `
+<TouchableOpacity
+  style={
+    [
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+      },
+      {
+        "marginTop": 10,
+      },
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "justifyContent": "center",
+        "padding": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#2A2A3C",
+        },
+        {
+          "fontSize": 12,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    Custom Style
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`Button Component should render with icons and custom properties 1`] = `
+<TouchableOpacity
+  onPress={[MockFunction]}
+  style={
+    [
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+      },
+      undefined,
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "justifyContent": "center",
+        "padding": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#2A2A3C",
+        },
+        {
+          "fontSize": 12,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    Press Me
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`Button Component should render with icons and custom properties 2`] = `
+<TouchableOpacity
+  style={
+    [
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+      },
+      undefined,
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "justifyContent": "center",
+        "padding": 8,
+      },
+    ]
+  }
+>
+  LeftIcon
+  <Text
+    style={
+      [
+        {
+          "color": "#2A2A3C",
+        },
+        {
+          "fontSize": 12,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    With Left Icon
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`Button Component should render with icons and custom properties 3`] = `
+<TouchableOpacity
+  style={
+    [
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+      },
+      undefined,
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "justifyContent": "center",
+        "padding": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#2A2A3C",
+        },
+        {
+          "fontSize": 12,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    With Right Icon
+  </Text>
+  RightIcon
+</TouchableOpacity>
+`;
+
+exports[`Button Component should render with icons and custom properties 4`] = `
+<TouchableOpacity
+  style={
+    [
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+      },
+      undefined,
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "justifyContent": "center",
+        "padding": 8,
+      },
+    ]
+  }
+>
+  LeftIcon
+  <Text
+    style={
+      [
+        {
+          "color": "#2A2A3C",
+        },
+        {
+          "fontSize": 12,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    With Both Icons
+  </Text>
+  RightIcon
+</TouchableOpacity>
+`;

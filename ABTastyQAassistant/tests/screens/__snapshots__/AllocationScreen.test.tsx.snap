@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`AllocationScreen should handle personal campaigns 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text>
+    AllocationVariationGr: vg-1, SHOWN, personal=true
+  </Text>
+</View>
+`;
+
+exports[`AllocationScreen should not show alert when campaign is shown 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text>
+    AllocationVariationGr: vg-1, SHOWN, personal=false
+  </Text>
+</View>
+`;
+
+exports[`AllocationScreen should render allocation variation groups 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text>
+    AllocationVariationGr: vg-1, SHOWN, personal=false
+  </Text>
+</View>
+`;
+
+exports[`AllocationScreen should render multiple variation groups 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text>
+    AllocationVariationGr: vg-1, SHOWN, personal=false
+  </Text>
+  <Text>
+    AllocationVariationGr: vg-2, SHOWN, personal=false
+  </Text>
+</View>
+`;
+
+exports[`AllocationScreen should show bypassed alert when allocation is reset without targeting match 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text>
+    AllocationVariationGr: vg-1, RESET, personal=false
+  </Text>
+  <Text>
+    Alert: Allocation has been bypassed.
+  </Text>
+</View>
+`;
+
+exports[`AllocationScreen should show not allocated alert when targeting does not match 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text>
+    AllocationVariationGr: vg-1, HIDDEN, personal=false
+  </Text>
+  <Text>
+    Alert: You are not part of the allocated traffic for this campaign.
+  </Text>
+</View>
+`;
+
+exports[`AllocationScreen should show untracked alert when targeting matched but hidden 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text>
+    AllocationVariationGr: vg-1, HIDDEN, personal=false
+  </Text>
+  <Text>
+    Alert: You are part of the untracked traffic for this campaign.
+  </Text>
+</View>
+`;

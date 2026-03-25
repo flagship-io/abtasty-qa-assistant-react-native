@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`SearchBar Component should handle undefined value prop 1`] = `
+<View
+  style={
+    {
+      "paddingBottom": 16,
+      "paddingHorizontal": 40,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    clearButtonMode="never"
+    onChangeText={[Function]}
+    placeholder="Search..."
+    placeholderTextColor="#6B7280"
+    returnKeyType="done"
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderRadius": 4,
+        "color": "#5E5E6E",
+        "fontSize": 16,
+        "paddingLeft": 8,
+        "paddingRight": 38,
+        "paddingVertical": 8,
+      }
+    }
+    value=""
+  />
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "fontSize": 18,
+        "position": "absolute",
+        "right": 45,
+        "top": 6,
+      }
+    }
+  >
+    SearchIcon
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`SearchBar Component should render with default empty value 1`] = `
+<View
+  style={
+    {
+      "paddingBottom": 16,
+      "paddingHorizontal": 40,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    clearButtonMode="never"
+    onChangeText={[Function]}
+    placeholder="Search..."
+    placeholderTextColor="#6B7280"
+    returnKeyType="done"
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderRadius": 4,
+        "color": "#5E5E6E",
+        "fontSize": 16,
+        "paddingLeft": 8,
+        "paddingRight": 38,
+        "paddingVertical": 8,
+      }
+    }
+    value=""
+  />
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "fontSize": 18,
+        "position": "absolute",
+        "right": 45,
+        "top": 6,
+      }
+    }
+  >
+    SearchIcon
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`SearchBar Component should render with empty string value 1`] = `
+<View
+  style={
+    {
+      "paddingBottom": 16,
+      "paddingHorizontal": 40,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    clearButtonMode="never"
+    onChangeText={[Function]}
+    placeholder="Search..."
+    placeholderTextColor="#6B7280"
+    returnKeyType="done"
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderRadius": 4,
+        "color": "#5E5E6E",
+        "fontSize": 16,
+        "paddingLeft": 8,
+        "paddingRight": 38,
+        "paddingVertical": 8,
+      }
+    }
+    value=""
+  />
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "fontSize": 18,
+        "position": "absolute",
+        "right": 45,
+        "top": 6,
+      }
+    }
+  >
+    SearchIcon
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`SearchBar Component should render with initial value 1`] = `
+<View
+  style={
+    {
+      "paddingBottom": 16,
+      "paddingHorizontal": 40,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    clearButtonMode="never"
+    onChangeText={[Function]}
+    placeholder="Search..."
+    placeholderTextColor="#6B7280"
+    returnKeyType="done"
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderRadius": 4,
+        "color": "#5E5E6E",
+        "fontSize": 16,
+        "paddingLeft": 8,
+        "paddingRight": 38,
+        "paddingVertical": 8,
+      }
+    }
+    value="initial search"
+  />
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "fontSize": 18,
+        "position": "absolute",
+        "right": 45,
+        "top": 6,
+      }
+    }
+  >
+    CloseIcon
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`SearchBar Component should update internal state when value prop changes 1`] = `
+<View
+  style={
+    {
+      "paddingBottom": 16,
+      "paddingHorizontal": 40,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    clearButtonMode="never"
+    onChangeText={[Function]}
+    placeholder="Search..."
+    placeholderTextColor="#6B7280"
+    returnKeyType="done"
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderRadius": 4,
+        "color": "#5E5E6E",
+        "fontSize": 16,
+        "paddingLeft": 8,
+        "paddingRight": 38,
+        "paddingVertical": 8,
+      }
+    }
+    value="first"
+  />
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "fontSize": 18,
+        "position": "absolute",
+        "right": 45,
+        "top": 6,
+      }
+    }
+  >
+    CloseIcon
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`SearchBar Component should update internal state when value prop changes 2`] = `
+<View
+  style={
+    {
+      "paddingBottom": 16,
+      "paddingHorizontal": 40,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    clearButtonMode="never"
+    onChangeText={[Function]}
+    placeholder="Search..."
+    placeholderTextColor="#6B7280"
+    returnKeyType="done"
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderRadius": 4,
+        "color": "#5E5E6E",
+        "fontSize": 16,
+        "paddingLeft": 8,
+        "paddingRight": 38,
+        "paddingVertical": 8,
+      }
+    }
+    value="second"
+  />
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "fontSize": 18,
+        "position": "absolute",
+        "right": 45,
+        "top": 6,
+      }
+    }
+  >
+    CloseIcon
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`SearchBar Component shows SearchIcon child when empty and CloseIcon child when non-empty (snapshot) 1`] = `
+<View
+  style={
+    {
+      "paddingBottom": 16,
+      "paddingHorizontal": 40,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    clearButtonMode="never"
+    onChangeText={[Function]}
+    placeholder="Search..."
+    placeholderTextColor="#6B7280"
+    returnKeyType="done"
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderRadius": 4,
+        "color": "#5E5E6E",
+        "fontSize": 16,
+        "paddingLeft": 8,
+        "paddingRight": 38,
+        "paddingVertical": 8,
+      }
+    }
+    value=""
+  />
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "fontSize": 18,
+        "position": "absolute",
+        "right": 45,
+        "top": 6,
+      }
+    }
+  >
+    SearchIcon
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`SearchBar Component shows SearchIcon child when empty and CloseIcon child when non-empty (snapshot) 2`] = `
+<View
+  style={
+    {
+      "paddingBottom": 16,
+      "paddingHorizontal": 40,
+    }
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    clearButtonMode="never"
+    onChangeText={[Function]}
+    placeholder="Search..."
+    placeholderTextColor="#6B7280"
+    returnKeyType="done"
+    style={
+      {
+        "backgroundColor": "#FCFCFD",
+        "borderRadius": 4,
+        "color": "#5E5E6E",
+        "fontSize": 16,
+        "paddingLeft": 8,
+        "paddingRight": 38,
+        "paddingVertical": 8,
+      }
+    }
+    value="abc"
+  />
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "fontSize": 18,
+        "position": "absolute",
+        "right": 45,
+        "top": 6,
+      }
+    }
+  >
+    CloseIcon
+  </TouchableOpacity>
+</View>
+`;

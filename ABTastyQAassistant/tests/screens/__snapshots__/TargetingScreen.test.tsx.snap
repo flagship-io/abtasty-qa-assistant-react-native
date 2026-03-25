@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TargetingScreen should handle personal campaigns 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <View>
+    <View>
+      <Text>
+        TargetingVariationGr: vg-1, SHOWN
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;
+
+exports[`TargetingScreen should not show alert when campaign is shown 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <View>
+    <View>
+      <Text>
+        TargetingVariationGr: vg-1, SHOWN
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;
+
+exports[`TargetingScreen should render multiple variation groups with targeting 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <View>
+    <View>
+      <Text>
+        TargetingVariationGr: vg-1, SHOWN
+      </Text>
+      <Text>
+        TargetingVariationGr: vg-2, SHOWN
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;
+
+exports[`TargetingScreen should render targeting variation groups 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <View>
+    <View>
+      <Text>
+        TargetingVariationGr: vg-1, SHOWN
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;
+
+exports[`TargetingScreen should show bypassed alert when targeting does not match and campaign is reset 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text>
+    Alert: Targeting has been bypassed.
+  </Text>
+  <View>
+    <View>
+      <Text>
+        TargetingVariationGr: vg-1, RESET
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;
+
+exports[`TargetingScreen should show not matched alert when targeting does not match and campaign is hidden 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text>
+    Alert: Targeting does not match your current values:
+  </Text>
+  <View>
+    <View>
+      <Text>
+        TargetingVariationGr: vg-1, HIDDEN
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;
+
+exports[`TargetingScreen should show untracked alert when targeting matched but hidden 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Text>
+    Alert: Targeting matched but the campaign is untracked
+  </Text>
+  <View>
+    <View>
+      <Text>
+        TargetingVariationGr: vg-1, HIDDEN
+      </Text>
+    </View>
+  </View>
+</ScrollView>
+`;

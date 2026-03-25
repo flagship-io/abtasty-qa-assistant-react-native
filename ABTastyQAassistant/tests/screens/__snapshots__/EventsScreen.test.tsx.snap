@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`EventsScreen should render empty state when no events 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    EventSummaryBar: 0 events
+  </Text>
+  <Text>
+    EmptyList
+  </Text>
+</View>
+`;
+
+exports[`EventsScreen should render event list when events exist 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    EventSummaryBar: 2 events
+  </Text>
+  <Text>
+    EventList: 2 hits
+  </Text>
+</View>
+`;
+
+exports[`EventsScreen should render with filtered hits 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    EventSummaryBar: 3 events
+  </Text>
+  <Text>
+    EventList: 1 hits
+  </Text>
+</View>
+`;

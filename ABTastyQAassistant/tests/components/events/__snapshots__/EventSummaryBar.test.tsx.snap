@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`EventSummaryBar Component should render Clear all button 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomColor": "#D8D8E2",
+      "borderBottomWidth": 1,
+      "borderTopLeftRadius": 16,
+      "borderTopRightRadius": 16,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#111827",
+        "fontSize": 16,
+      }
+    }
+  >
+    5
+     event
+    s
+     recorded
+  </Text>
+  <TouchableOpacity
+    disabled={false}
+    onPress={[MockFunction]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 4,
+      }
+    }
+  >
+    DeleteIcon
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "fontWeight": "500",
+          },
+          {
+            "color": "#B02F25",
+          },
+        ]
+      }
+    >
+      Clear all
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`EventSummaryBar Component should render with different event counts 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomColor": "#D8D8E2",
+      "borderBottomWidth": 1,
+      "borderTopLeftRadius": 16,
+      "borderTopRightRadius": 16,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#111827",
+        "fontSize": 16,
+      }
+    }
+  >
+    0
+     event
+    s
+     recorded
+  </Text>
+  <TouchableOpacity
+    disabled={true}
+    onPress={[MockFunction]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 4,
+      }
+    }
+  >
+    DeleteIcon
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "fontWeight": "500",
+          },
+          {
+            "color": "#AFAFBC",
+          },
+        ]
+      }
+    >
+      Clear all
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`EventSummaryBar Component should render with different event counts 2`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomColor": "#D8D8E2",
+      "borderBottomWidth": 1,
+      "borderTopLeftRadius": 16,
+      "borderTopRightRadius": 16,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#111827",
+        "fontSize": 16,
+      }
+    }
+  >
+    1
+     event
+     recorded
+  </Text>
+  <TouchableOpacity
+    disabled={false}
+    onPress={[MockFunction]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 4,
+      }
+    }
+  >
+    DeleteIcon
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "fontWeight": "500",
+          },
+          {
+            "color": "#B02F25",
+          },
+        ]
+      }
+    >
+      Clear all
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`EventSummaryBar Component should render with different event counts 3`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomColor": "#D8D8E2",
+      "borderBottomWidth": 1,
+      "borderTopLeftRadius": 16,
+      "borderTopRightRadius": 16,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#111827",
+        "fontSize": 16,
+      }
+    }
+  >
+    5
+     event
+    s
+     recorded
+  </Text>
+  <TouchableOpacity
+    disabled={false}
+    onPress={[MockFunction]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 4,
+      }
+    }
+  >
+    DeleteIcon
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "fontWeight": "500",
+          },
+          {
+            "color": "#B02F25",
+          },
+        ]
+      }
+    >
+      Clear all
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`EventSummaryBar Component should render with different event counts 4`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomColor": "#D8D8E2",
+      "borderBottomWidth": 1,
+      "borderTopLeftRadius": 16,
+      "borderTopRightRadius": 16,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#111827",
+        "fontSize": 16,
+      }
+    }
+  >
+    1000
+     event
+    s
+     recorded
+  </Text>
+  <TouchableOpacity
+    disabled={false}
+    onPress={[MockFunction]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 4,
+      }
+    }
+  >
+    DeleteIcon
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "fontWeight": "500",
+          },
+          {
+            "color": "#B02F25",
+          },
+        ]
+      }
+    >
+      Clear all
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`EventSummaryBar Component should render with zero and multiple events 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomColor": "#D8D8E2",
+      "borderBottomWidth": 1,
+      "borderTopLeftRadius": 16,
+      "borderTopRightRadius": 16,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#111827",
+        "fontSize": 16,
+      }
+    }
+  >
+    0
+     event
+    s
+     recorded
+  </Text>
+  <TouchableOpacity
+    disabled={true}
+    onPress={[MockFunction]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 4,
+      }
+    }
+  >
+    DeleteIcon
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "fontWeight": "500",
+          },
+          {
+            "color": "#AFAFBC",
+          },
+        ]
+      }
+    >
+      Clear all
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`EventSummaryBar Component should render with zero and multiple events 2`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomColor": "#D8D8E2",
+      "borderBottomWidth": 1,
+      "borderTopLeftRadius": 16,
+      "borderTopRightRadius": 16,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#111827",
+        "fontSize": 16,
+      }
+    }
+  >
+    10
+     event
+    s
+     recorded
+  </Text>
+  <TouchableOpacity
+    disabled={false}
+    onPress={[MockFunction]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 4,
+      }
+    }
+  >
+    DeleteIcon
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "fontWeight": "500",
+          },
+          {
+            "color": "#B02F25",
+          },
+        ]
+      }
+    >
+      Clear all
+    </Text>
+  </TouchableOpacity>
+</View>
+`;

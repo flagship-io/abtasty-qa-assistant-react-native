@@ -1,0 +1,570 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CampaignMetaDataRow Component should render with HIDDEN display status 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+        "gap": 8,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 16,
+          "justifyContent": "center",
+          "paddingHorizontal": 12,
+          "paddingVertical": 6,
+        },
+        {
+          "backgroundColor": "#FED1CD",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#310502",
+          "fontSize": 13,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Allocation Rejected
+    </Text>
+  </View>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      [
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 4,
+          "borderWidth": 1,
+        },
+        undefined,
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    EyeShowIcon
+    <Text
+      style={
+        [
+          {
+            "color": "#2A2A3C",
+          },
+          {
+            "fontSize": 12,
+            "fontWeight": "700",
+          },
+        ]
+      }
+    >
+      Force display
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CampaignMetaDataRow Component should render with RESET display status 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+        "gap": 8,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 16,
+          "justifyContent": "center",
+          "paddingHorizontal": 12,
+          "paddingVertical": 6,
+        },
+        {
+          "backgroundColor": "#FFECBD",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#4D3700",
+          "fontSize": 13,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Hidden
+    </Text>
+  </View>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      [
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 4,
+          "borderWidth": 1,
+        },
+        undefined,
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    ResetIcon
+    <Text
+      style={
+        [
+          {
+            "color": "#2A2A3C",
+          },
+          {
+            "fontSize": 12,
+            "fontWeight": "700",
+          },
+        ]
+      }
+    >
+      Initial state
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CampaignMetaDataRow Component should render with SHOWN display status 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+        "gap": 8,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 16,
+          "justifyContent": "center",
+          "paddingHorizontal": 12,
+          "paddingVertical": 6,
+        },
+        {
+          "backgroundColor": "#C7F4EE",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#00332B",
+          "fontSize": 13,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Accepted
+    </Text>
+  </View>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      [
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 4,
+          "borderWidth": 1,
+        },
+        undefined,
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    EyeHideIcon
+    <Text
+      style={
+        [
+          {
+            "color": "#2A2A3C",
+          },
+          {
+            "fontSize": 12,
+            "fontWeight": "700",
+          },
+        ]
+      }
+    >
+      Hide
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CampaignMetaDataRow Component should render with custom styles 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+        "gap": 8,
+      },
+      {
+        "marginTop": 10,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 16,
+          "justifyContent": "center",
+          "paddingHorizontal": 12,
+          "paddingVertical": 6,
+        },
+        {
+          "backgroundColor": "#C7F4EE",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#00332B",
+          "fontSize": 13,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Accepted
+    </Text>
+  </View>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      [
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 4,
+          "borderWidth": 1,
+        },
+        undefined,
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    EyeHideIcon
+    <Text
+      style={
+        [
+          {
+            "color": "#2A2A3C",
+          },
+          {
+            "fontSize": 12,
+            "fontWeight": "700",
+          },
+        ]
+      }
+    >
+      Hide
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CampaignMetaDataRow Component should show "Force display" label for HIDDEN status 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+        "gap": 8,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 16,
+          "justifyContent": "center",
+          "paddingHorizontal": 12,
+          "paddingVertical": 6,
+        },
+        {
+          "backgroundColor": "#FED1CD",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#310502",
+          "fontSize": 13,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Allocation Rejected
+    </Text>
+  </View>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      [
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 4,
+          "borderWidth": 1,
+        },
+        undefined,
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    EyeShowIcon
+    <Text
+      style={
+        [
+          {
+            "color": "#2A2A3C",
+          },
+          {
+            "fontSize": 12,
+            "fontWeight": "700",
+          },
+        ]
+      }
+    >
+      Force display
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CampaignMetaDataRow Component should show "Hide" label for SHOWN status 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+        "gap": 8,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 16,
+          "justifyContent": "center",
+          "paddingHorizontal": 12,
+          "paddingVertical": 6,
+        },
+        {
+          "backgroundColor": "#C7F4EE",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#00332B",
+          "fontSize": 13,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Accepted
+    </Text>
+  </View>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      [
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 4,
+          "borderWidth": 1,
+        },
+        undefined,
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    EyeHideIcon
+    <Text
+      style={
+        [
+          {
+            "color": "#2A2A3C",
+          },
+          {
+            "fontSize": 12,
+            "fontWeight": "700",
+          },
+        ]
+      }
+    >
+      Hide
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CampaignMetaDataRow Component should show "Initial state" label for RESET status 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+        "gap": 8,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 16,
+          "justifyContent": "center",
+          "paddingHorizontal": 12,
+          "paddingVertical": 6,
+        },
+        {
+          "backgroundColor": "#FFECBD",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#4D3700",
+          "fontSize": 13,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Hidden
+    </Text>
+  </View>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      [
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 4,
+          "borderWidth": 1,
+        },
+        undefined,
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    ResetIcon
+    <Text
+      style={
+        [
+          {
+            "color": "#2A2A3C",
+          },
+          {
+            "fontSize": 12,
+            "fontWeight": "700",
+          },
+        ]
+      }
+    >
+      Initial state
+    </Text>
+  </TouchableOpacity>
+</View>
+`;

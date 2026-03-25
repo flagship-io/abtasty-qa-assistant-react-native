@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`VariationAction should show "Reset" button when variation is allocated 1`] = `
+<TouchableOpacity
+  testID="button"
+>
+  <Text>
+    Reset
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`VariationAction should show "View" button when variation is not allocated and not current 1`] = `
+<TouchableOpacity
+  testID="button"
+>
+  <Text>
+    View
+  </Text>
+</TouchableOpacity>
+`;
+
+exports[`VariationAction should show "Your version" when isCurrent is true 1`] = `
+<Text
+  style={
+    {
+      "backgroundColor": "#C7F4EE",
+      "borderRadius": 20,
+      "color": "#00332B",
+      "fontWeight": "bold",
+      "paddingHorizontal": 12,
+      "paddingVertical": 7,
+    }
+  }
+>
+  Your version
+</Text>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CurrentVariation should combine group name with variation name when shouldCombineGrpName is true 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "backgroundColor": "#C7F4EE",
+        "justifyContent": "center",
+        "padding": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text>
+    ✅ Your are viewing:
+     
+    Group 1 - Variation A
+  </Text>
+</View>
+`;
+
+exports[`CurrentVariation should render variation name when shown and accepted 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "backgroundColor": "#C7F4EE",
+        "justifyContent": "center",
+        "padding": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text>
+    ✅ Your are viewing:
+     
+    Variation A
+  </Text>
+</View>
+`;
+
+exports[`CurrentVariation should render when displayStatus is RESET and campaignStatus is REJECTED 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "backgroundColor": "#C7F4EE",
+        "justifyContent": "center",
+        "padding": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text>
+    ✅ Your are viewing:
+     
+    Variation A
+  </Text>
+</View>
+`;

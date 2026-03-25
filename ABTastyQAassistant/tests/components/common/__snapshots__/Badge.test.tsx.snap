@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Badge Component HIDDEN status should render "Allocation Rejected" when targeting matched 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 16,
+        "justifyContent": "center",
+        "paddingHorizontal": 12,
+        "paddingVertical": 6,
+      },
+      {
+        "backgroundColor": "#FED1CD",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#310502",
+        "fontSize": 13,
+        "fontWeight": "600",
+      }
+    }
+  >
+    Allocation Rejected
+  </Text>
+</View>
+`;
+
+exports[`Badge Component HIDDEN status should render "Targeting Rejected" when targeting not matched 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 16,
+        "justifyContent": "center",
+        "paddingHorizontal": 12,
+        "paddingVertical": 6,
+      },
+      {
+        "backgroundColor": "#FED1CD",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#310502",
+        "fontSize": 13,
+        "fontWeight": "600",
+      }
+    }
+  >
+    Targeting Rejected
+  </Text>
+</View>
+`;
+
+exports[`Badge Component HIDDEN status should use custom allocation label when provided 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 16,
+        "justifyContent": "center",
+        "paddingHorizontal": 12,
+        "paddingVertical": 6,
+      },
+      {
+        "backgroundColor": "#FED1CD",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#310502",
+        "fontSize": 13,
+        "fontWeight": "600",
+      }
+    }
+  >
+    Custom Allocation
+  </Text>
+</View>
+`;
+
+exports[`Badge Component HIDDEN status should use custom targeting label when provided 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 16,
+        "justifyContent": "center",
+        "paddingHorizontal": 12,
+        "paddingVertical": 6,
+      },
+      {
+        "backgroundColor": "#FED1CD",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#310502",
+        "fontSize": 13,
+        "fontWeight": "600",
+      }
+    }
+  >
+    Custom Targeting
+  </Text>
+</View>
+`;
+
+exports[`Badge Component RESET status should render "Forced" for RESET with non-ACCEPTED status 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 16,
+        "justifyContent": "center",
+        "paddingHorizontal": 12,
+        "paddingVertical": 6,
+      },
+      {
+        "backgroundColor": "#FFECBD",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#4D3700",
+        "fontSize": 13,
+        "fontWeight": "600",
+      }
+    }
+  >
+    Forced
+  </Text>
+</View>
+`;
+
+exports[`Badge Component RESET status should render "Hidden" for RESET with ACCEPTED status 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 16,
+        "justifyContent": "center",
+        "paddingHorizontal": 12,
+        "paddingVertical": 6,
+      },
+      {
+        "backgroundColor": "#FFECBD",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#4D3700",
+        "fontSize": 13,
+        "fontWeight": "600",
+      }
+    }
+  >
+    Hidden
+  </Text>
+</View>
+`;
+
+exports[`Badge Component SHOWN status should render "Accepted" label for SHOWN status 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 16,
+        "justifyContent": "center",
+        "paddingHorizontal": 12,
+        "paddingVertical": 6,
+      },
+      {
+        "backgroundColor": "#C7F4EE",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#00332B",
+        "fontSize": 13,
+        "fontWeight": "600",
+      }
+    }
+  >
+    Accepted
+  </Text>
+</View>
+`;
+
+exports[`Badge Component default case should render "Rejected" for unknown display status 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 16,
+        "justifyContent": "center",
+        "paddingHorizontal": 12,
+        "paddingVertical": 6,
+      },
+      {
+        "backgroundColor": "#FED1CD",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#310502",
+        "fontSize": 13,
+        "fontWeight": "600",
+      }
+    }
+  >
+    Rejected
+  </Text>
+</View>
+`;

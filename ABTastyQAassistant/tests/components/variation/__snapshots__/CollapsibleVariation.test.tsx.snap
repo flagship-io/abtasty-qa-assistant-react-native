@@ -1,0 +1,312 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CollapsibleVariation should combine group name with variation name when shouldCombineGrpName is true 1`] = `
+<View
+  style={
+    [
+      {
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "marginRight": 10,
+          }
+        }
+      >
+        ChevronDown
+      </Text>
+      <Text
+        style={{}}
+      >
+        Group 1 - Variation A
+      </Text>
+    </View>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CollapsibleVariation should render collapsed by default and expand on press 1`] = `
+<View
+  style={
+    [
+      {
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "marginRight": 10,
+          }
+        }
+      >
+        ChevronUp
+      </Text>
+      <Text
+        style={{}}
+      >
+        Variation A
+      </Text>
+    </View>
+  </TouchableOpacity>
+  <Text
+    testID="flag-value"
+  >
+    {"key1":"value1","key2":"value2"}
+  </Text>
+</View>
+`;
+
+exports[`CollapsibleVariation should render expanded when defaultExpanded is true 1`] = `
+<View
+  style={
+    [
+      {
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "marginRight": 10,
+          }
+        }
+      >
+        ChevronUp
+      </Text>
+      <Text
+        style={{}}
+      >
+        Variation A
+      </Text>
+    </View>
+  </TouchableOpacity>
+  <Text
+    testID="flag-value"
+  >
+    {"key1":"value1","key2":"value2"}
+  </Text>
+</View>
+`;
+
+exports[`CollapsibleVariation should show "Your version" when isCurrent is true 1`] = `
+<View
+  style={
+    [
+      {
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "marginRight": 10,
+          }
+        }
+      >
+        ChevronDown
+      </Text>
+      <Text
+        style={{}}
+      >
+        Variation A
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "backgroundColor": "#C7F4EE",
+          "borderRadius": 20,
+          "color": "#00332B",
+          "fontWeight": "bold",
+          "paddingHorizontal": 12,
+          "paddingVertical": 7,
+        }
+      }
+    >
+      Your version
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CollapsibleVariation should show variation action when shouldShowVariationAction is true 1`] = `
+<View
+  style={
+    [
+      {
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "marginRight": 10,
+          }
+        }
+      >
+        ChevronDown
+      </Text>
+      <Text
+        style={{}}
+      >
+        Variation A
+      </Text>
+    </View>
+    <TouchableOpacity
+      onPress={[Function]}
+      style={
+        [
+          {
+            "backgroundColor": "#FCFCFD",
+            "borderColor": "#D8D8E2",
+            "borderRadius": 4,
+            "borderWidth": 1,
+          },
+          undefined,
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "gap": 8,
+            "justifyContent": "center",
+            "padding": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#2A2A3C",
+            },
+            {
+              "fontSize": 12,
+              "fontWeight": "700",
+            },
+          ]
+        }
+      >
+        View
+      </Text>
+    </TouchableOpacity>
+  </TouchableOpacity>
+</View>
+`;

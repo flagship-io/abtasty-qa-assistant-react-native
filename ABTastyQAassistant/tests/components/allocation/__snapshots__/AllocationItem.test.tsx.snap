@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`AllocationItem Component should handle undefined variation name 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "gap": 10,
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    :
+  </Text>
+  <Text
+    style={
+      {
+        "backgroundColor": "#DBE5FF",
+        "borderRadius": 15,
+        "fontWeight": "600",
+        "paddingHorizontal": 10,
+        "paddingVertical": 3,
+      }
+    }
+  >
+    25
+    %
+  </Text>
+</View>
+`;
+
+exports[`AllocationItem Component should render with different allocation values 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "gap": 10,
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Variation A
+    :
+  </Text>
+  <Text
+    style={
+      {
+        "backgroundColor": "#DBE5FF",
+        "borderRadius": 15,
+        "fontWeight": "600",
+        "paddingHorizontal": 10,
+        "paddingVertical": 3,
+      }
+    }
+  >
+    50
+    %
+  </Text>
+</View>
+`;
+
+exports[`AllocationItem Component should render with different allocation values 2`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "gap": 10,
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Variation B
+    :
+  </Text>
+  <Text
+    style={
+      {
+        "backgroundColor": "#DBE5FF",
+        "borderRadius": 15,
+        "fontWeight": "600",
+        "paddingHorizontal": 10,
+        "paddingVertical": 3,
+      }
+    }
+  >
+    0
+    %
+  </Text>
+</View>
+`;
+
+exports[`AllocationItem Component should render with different allocation values 3`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "gap": 10,
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Control
+    :
+  </Text>
+  <Text
+    style={
+      {
+        "backgroundColor": "#DBE5FF",
+        "borderRadius": 15,
+        "fontWeight": "600",
+        "paddingHorizontal": 10,
+        "paddingVertical": 3,
+      }
+    }
+  >
+    100
+    %
+  </Text>
+</View>
+`;
+
+exports[`AllocationItem Component should render with different allocation values 4`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "gap": 10,
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    No Allocation
+    :
+  </Text>
+  <Text
+    style={
+      {
+        "backgroundColor": "#DBE5FF",
+        "borderRadius": 15,
+        "fontWeight": "600",
+        "paddingHorizontal": 10,
+        "paddingVertical": 3,
+      }
+    }
+  >
+    0
+    %
+  </Text>
+</View>
+`;
+
+exports[`AllocationItem Component should render with different allocation values 5`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "gap": 10,
+      "marginBottom": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Decimal
+    :
+  </Text>
+  <Text
+    style={
+      {
+        "backgroundColor": "#DBE5FF",
+        "borderRadius": 15,
+        "fontWeight": "600",
+        "paddingHorizontal": 10,
+        "paddingVertical": 3,
+      }
+    }
+  >
+    33.33
+    %
+  </Text>
+</View>
+`;

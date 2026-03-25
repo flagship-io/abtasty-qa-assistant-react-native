@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`HumanizeDuration Component should format different time ranges correctly 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "500",
+      },
+      {
+        "color": "#00806C",
+      },
+    ]
+  }
+>
+  Just now
+</Text>
+`;
+
+exports[`HumanizeDuration Component should format different time ranges correctly 2`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "500",
+      },
+      {
+        "color": "#2A2A3C",
+      },
+    ]
+  }
+>
+  30 sec. ago
+</Text>
+`;
+
+exports[`HumanizeDuration Component should format different time ranges correctly 3`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "500",
+      },
+      {
+        "color": "#2A2A3C",
+      },
+    ]
+  }
+>
+  a min. ago
+</Text>
+`;
+
+exports[`HumanizeDuration Component should format different time ranges correctly 4`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "500",
+      },
+      {
+        "color": "#2A2A3C",
+      },
+    ]
+  }
+>
+  30 min. ago
+</Text>
+`;
+
+exports[`HumanizeDuration Component should format different time ranges correctly 5`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "500",
+      },
+      {
+        "color": "#2A2A3C",
+      },
+    ]
+  }
+>
+  1 hour ago
+</Text>
+`;
+
+exports[`HumanizeDuration Component should format different time ranges correctly 6`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "500",
+      },
+      {
+        "color": "#2A2A3C",
+      },
+    ]
+  }
+>
+  5 hours ago
+</Text>
+`;
+
+exports[`HumanizeDuration Component should format different time ranges correctly 7`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "500",
+      },
+      {
+        "color": "#2A2A3C",
+      },
+    ]
+  }
+>
+  one day ago
+</Text>
+`;
+
+exports[`HumanizeDuration Component should format different time ranges correctly 8`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "500",
+      },
+      {
+        "color": "#2A2A3C",
+      },
+    ]
+  }
+>
+  7 days ago
+</Text>
+`;
+
+exports[`HumanizeDuration Component should format different time ranges correctly 9`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "500",
+      },
+      {
+        "color": "#2A2A3C",
+      },
+    ]
+  }
+>
+  2 months ago
+</Text>
+`;
+
+exports[`HumanizeDuration Component should handle custom interval and cleanup 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontSize": 12,
+        "fontWeight": "500",
+      },
+      {
+        "color": "#00806C",
+      },
+    ]
+  }
+>
+  Just now
+</Text>
+`;

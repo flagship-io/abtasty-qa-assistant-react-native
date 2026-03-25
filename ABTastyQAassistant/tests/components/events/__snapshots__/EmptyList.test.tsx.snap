@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`EmptyList Component should display primary message 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "flex-start",
+      "paddingTop": 40,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#E5E7EB",
+        "height": 120,
+        "marginBottom": 16,
+        "width": 120,
+      }
+    }
+  >
+    EmptyStateIcon
+  </View>
+  <Text
+    style={
+      {
+        "color": "#2A2A3C",
+        "fontSize": 18,
+        "fontWeight": "700",
+        "marginBottom": 8,
+      }
+    }
+  >
+    No event has been recorded so far
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#5E5E6E",
+        "fontSize": 14,
+      }
+    }
+  >
+    Interact with the page to see events here.
+  </Text>
+</View>
+`;
+
+exports[`EmptyList Component should display secondary message 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "flex-start",
+      "paddingTop": 40,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#E5E7EB",
+        "height": 120,
+        "marginBottom": 16,
+        "width": 120,
+      }
+    }
+  >
+    EmptyStateIcon
+  </View>
+  <Text
+    style={
+      {
+        "color": "#2A2A3C",
+        "fontSize": 18,
+        "fontWeight": "700",
+        "marginBottom": 8,
+      }
+    }
+  >
+    No event has been recorded so far
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#5E5E6E",
+        "fontSize": 14,
+      }
+    }
+  >
+    Interact with the page to see events here.
+  </Text>
+</View>
+`;
+
+exports[`EmptyList Component should render the component 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "flex-start",
+      "paddingTop": 40,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#E5E7EB",
+        "height": 120,
+        "marginBottom": 16,
+        "width": 120,
+      }
+    }
+  >
+    EmptyStateIcon
+  </View>
+  <Text
+    style={
+      {
+        "color": "#2A2A3C",
+        "fontSize": 18,
+        "fontWeight": "700",
+        "marginBottom": 8,
+      }
+    }
+  >
+    No event has been recorded so far
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#5E5E6E",
+        "fontSize": 14,
+      }
+    }
+  >
+    Interact with the page to see events here.
+  </Text>
+</View>
+`;

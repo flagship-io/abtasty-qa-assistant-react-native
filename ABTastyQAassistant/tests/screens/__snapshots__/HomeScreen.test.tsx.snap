@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`HomeScreen should render with search bar and tabs 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    testID="search-bar"
+  >
+    <Text>
+      SearchBar: 
+    </Text>
+  </TouchableOpacity>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <Text>
+      CampaignsPage
+    </Text>
+    <Text>
+      EventsPage
+    </Text>
+    <Text>
+      ContextPage
+    </Text>
+  </View>
+</View>
+`;

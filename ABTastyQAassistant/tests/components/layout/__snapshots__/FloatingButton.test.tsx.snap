@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`FloatingButton Component should render at all positions 1`] = `
+<AnimatedView
+  onMoveShouldSetResponder={[Function]}
+  onResponderGrant={[MockFunction]}
+  onResponderMove={[MockFunction]}
+  onResponderRelease={[MockFunction]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "position": "absolute",
+        "zIndex": 9999,
+      },
+      {
+        "transform": [
+          {
+            "translateX": {
+              "_value": 0,
+            },
+          },
+          {
+            "translateY": {
+              "_value": 0,
+            },
+          },
+          {
+            "scale": {
+              "_value": 0,
+              "interpolate": [MockFunction],
+              "setValue": [MockFunction],
+            },
+          },
+        ],
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderRadius": 28,
+        "elevation": 8,
+        "justifyContent": "center",
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4.65,
+      }
+    }
+  >
+    QAAIcon
+  </View>
+</AnimatedView>
+`;
+
+exports[`FloatingButton Component should render at all positions 2`] = `
+<AnimatedView
+  onMoveShouldSetResponder={[Function]}
+  onResponderGrant={[MockFunction]}
+  onResponderMove={[MockFunction]}
+  onResponderRelease={[MockFunction]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "position": "absolute",
+        "zIndex": 9999,
+      },
+      {
+        "transform": [
+          {
+            "translateX": {
+              "_value": 0,
+            },
+          },
+          {
+            "translateY": {
+              "_value": 0,
+            },
+          },
+          {
+            "scale": {
+              "_value": 0,
+              "interpolate": [MockFunction],
+              "setValue": [MockFunction],
+            },
+          },
+        ],
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderRadius": 28,
+        "elevation": 8,
+        "justifyContent": "center",
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4.65,
+      }
+    }
+  >
+    QAAIcon
+  </View>
+</AnimatedView>
+`;
+
+exports[`FloatingButton Component should render at all positions 3`] = `
+<AnimatedView
+  onMoveShouldSetResponder={[Function]}
+  onResponderGrant={[MockFunction]}
+  onResponderMove={[MockFunction]}
+  onResponderRelease={[MockFunction]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "position": "absolute",
+        "zIndex": 9999,
+      },
+      {
+        "transform": [
+          {
+            "translateX": {
+              "_value": 0,
+            },
+          },
+          {
+            "translateY": {
+              "_value": 0,
+            },
+          },
+          {
+            "scale": {
+              "_value": 0,
+              "interpolate": [MockFunction],
+              "setValue": [MockFunction],
+            },
+          },
+        ],
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderRadius": 28,
+        "elevation": 8,
+        "justifyContent": "center",
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4.65,
+      }
+    }
+  >
+    QAAIcon
+  </View>
+</AnimatedView>
+`;
+
+exports[`FloatingButton Component should render at all positions 4`] = `
+<AnimatedView
+  onMoveShouldSetResponder={[Function]}
+  onResponderGrant={[MockFunction]}
+  onResponderMove={[MockFunction]}
+  onResponderRelease={[MockFunction]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "position": "absolute",
+        "zIndex": 9999,
+      },
+      {
+        "transform": [
+          {
+            "translateX": {
+              "_value": 0,
+            },
+          },
+          {
+            "translateY": {
+              "_value": 0,
+            },
+          },
+          {
+            "scale": {
+              "_value": 0,
+              "interpolate": [MockFunction],
+              "setValue": [MockFunction],
+            },
+          },
+        ],
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderRadius": 28,
+        "elevation": 8,
+        "justifyContent": "center",
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4.65,
+      }
+    }
+  >
+    QAAIcon
+  </View>
+</AnimatedView>
+`;
+
+exports[`FloatingButton Component should render at all positions 5`] = `
+<AnimatedView
+  onMoveShouldSetResponder={[Function]}
+  onResponderGrant={[MockFunction]}
+  onResponderMove={[MockFunction]}
+  onResponderRelease={[MockFunction]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "position": "absolute",
+        "zIndex": 9999,
+      },
+      {
+        "transform": [
+          {
+            "translateX": {
+              "_value": 0,
+            },
+          },
+          {
+            "translateY": {
+              "_value": 0,
+            },
+          },
+          {
+            "scale": {
+              "_value": 0,
+              "interpolate": [MockFunction],
+              "setValue": [MockFunction],
+            },
+          },
+        ],
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderRadius": 28,
+        "elevation": 8,
+        "justifyContent": "center",
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4.65,
+      }
+    }
+  >
+    QAAIcon
+  </View>
+</AnimatedView>
+`;

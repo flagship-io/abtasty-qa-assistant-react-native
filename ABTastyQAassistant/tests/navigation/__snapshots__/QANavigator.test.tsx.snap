@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`QANavigator should handle screen visibility and canGoBack correctly 1`] = `
+<View>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "flex": 1,
+          },
+          {
+            "display": "none",
+          },
+        ]
+      }
+    >
+      <Text>
+        Screen A
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "flex": 1,
+          },
+          {
+            "display": "flex",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFFFF",
+          }
+        }
+      >
+        <Text>
+          Can Go Back
+        </Text>
+      </View>
+      <Text>
+        Screen B
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`QANavigator should render navigator with default state and styles 1`] = `
+<View>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "flex": 1,
+          },
+          {
+            "display": "flex",
+          },
+        ]
+      }
+    >
+      <Text>
+        Screen A
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "flex": 1,
+          },
+          {
+            "display": "none",
+          },
+        ]
+      }
+    >
+      <Text>
+        Screen B
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`QANavigator should render static and function-based header titles 1`] = `
+<View>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "flex": 1,
+          },
+          {
+            "display": "flex",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFFFF",
+          }
+        }
+      >
+        <Text>
+          Cannot Go Back
+        </Text>
+      </View>
+      <Text>
+        Screen A
+      </Text>
+    </View>
+  </View>
+</View>
+`;

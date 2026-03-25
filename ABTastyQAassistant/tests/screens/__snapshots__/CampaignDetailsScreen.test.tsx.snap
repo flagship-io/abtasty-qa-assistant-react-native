@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CampaignDetailsScreen should handle campaign without current variation 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#2A2A3C",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "marginBottom": 8,
+        }
+      }
+    >
+      Test Campaign
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+          "marginBottom": 16,
+        }
+      }
+    >
+      Campaign ID: 
+      camp-1
+    </Text>
+    <Text>
+      CampaignMetaDataRow: camp-1
+    </Text>
+  </View>
+  <Text>
+    CurrentVariation: none
+  </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <MockNavigator
+      screenOptions="{"tabBarStyle":{"backgroundColor":"#fff"},"tabBarIndicatorStyle":{"backgroundColor":"#007AFF"}}"
+    >
+      <MockScreen
+        name="Variations"
+      />
+      <MockScreen
+        name="Targeting"
+      >
+        Screen: Targeting
+      </MockScreen>
+      <MockScreen
+        name="Allocation"
+      >
+        Screen: Allocation
+      </MockScreen>
+    </MockNavigator>
+  </View>
+</View>
+`;
+
+exports[`CampaignDetailsScreen should handle personalization campaigns 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#2A2A3C",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "marginBottom": 8,
+        }
+      }
+    >
+      Personalization Campaign
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+          "marginBottom": 16,
+        }
+      }
+    >
+      Campaign ID: 
+      camp-1
+    </Text>
+    <Text>
+      CampaignMetaDataRow: camp-1
+    </Text>
+  </View>
+  <Text>
+    CurrentVariation: none
+  </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <MockNavigator
+      screenOptions="{"tabBarStyle":{"backgroundColor":"#fff"},"tabBarIndicatorStyle":{"backgroundColor":"#007AFF"}}"
+    >
+      <MockScreen
+        name="Variations"
+      />
+      <MockScreen
+        name="Targeting"
+      >
+        Screen: Targeting
+      </MockScreen>
+      <MockScreen
+        name="Allocation"
+      >
+        Screen: Allocation
+      </MockScreen>
+    </MockNavigator>
+  </View>
+</View>
+`;
+
+exports[`CampaignDetailsScreen should pass campaign ID to nested screens via params 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#2A2A3C",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "marginBottom": 8,
+        }
+      }
+    >
+      Test Campaign
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+          "marginBottom": 16,
+        }
+      }
+    >
+      Campaign ID: 
+      camp-1
+    </Text>
+    <Text>
+      CampaignMetaDataRow: camp-1
+    </Text>
+  </View>
+  <Text>
+    CurrentVariation: none
+  </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <MockNavigator
+      screenOptions="{"tabBarStyle":{"backgroundColor":"#000"},"tabBarIndicatorStyle":{"backgroundColor":"#FF0000"}}"
+    >
+      <MockScreen
+        name="Variations"
+      />
+      <MockScreen
+        name="Targeting"
+      >
+        Screen: Targeting
+      </MockScreen>
+      <MockScreen
+        name="Allocation"
+      >
+        Screen: Allocation
+      </MockScreen>
+    </MockNavigator>
+  </View>
+</View>
+`;
+
+exports[`CampaignDetailsScreen should render all three tab screens 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#2A2A3C",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "marginBottom": 8,
+        }
+      }
+    >
+      Test Campaign
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+          "marginBottom": 16,
+        }
+      }
+    >
+      Campaign ID: 
+      camp-1
+    </Text>
+    <Text>
+      CampaignMetaDataRow: camp-1
+    </Text>
+  </View>
+  <Text>
+    CurrentVariation: var-1
+  </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <MockNavigator
+      screenOptions="{"tabBarStyle":{"backgroundColor":"#fff"},"tabBarIndicatorStyle":{"backgroundColor":"#007AFF"}}"
+    >
+      <MockScreen
+        name="Variations"
+      />
+      <MockScreen
+        name="Targeting"
+      >
+        Screen: Targeting
+      </MockScreen>
+      <MockScreen
+        name="Allocation"
+      >
+        Screen: Allocation
+      </MockScreen>
+    </MockNavigator>
+  </View>
+</View>
+`;
+
+exports[`CampaignDetailsScreen should render campaign header with current variation 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#2A2A3C",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "marginBottom": 8,
+        }
+      }
+    >
+      Test Campaign
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+          "marginBottom": 16,
+        }
+      }
+    >
+      Campaign ID: 
+      camp-1
+    </Text>
+    <Text>
+      CampaignMetaDataRow: camp-1
+    </Text>
+  </View>
+  <Text>
+    CurrentVariation: var-1
+  </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <MockNavigator
+      screenOptions="{"tabBarStyle":{"backgroundColor":"#fff"},"tabBarIndicatorStyle":{"backgroundColor":"#007AFF"}}"
+    >
+      <MockScreen
+        name="Variations"
+      />
+      <MockScreen
+        name="Targeting"
+      >
+        Screen: Targeting
+      </MockScreen>
+      <MockScreen
+        name="Allocation"
+      >
+        Screen: Allocation
+      </MockScreen>
+    </MockNavigator>
+  </View>
+</View>
+`;
+
+exports[`CampaignDetailsScreen should use tab screen options from hook 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#2A2A3C",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "marginBottom": 8,
+        }
+      }
+    >
+      Test Campaign
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+          "marginBottom": 16,
+        }
+      }
+    >
+      Campaign ID: 
+      camp-1
+    </Text>
+    <Text>
+      CampaignMetaDataRow: camp-1
+    </Text>
+  </View>
+  <Text>
+    CurrentVariation: none
+  </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <MockNavigator
+      screenOptions="{"tabBarStyle":{"backgroundColor":"#000"},"tabBarIndicatorStyle":{"backgroundColor":"#FF0000"}}"
+    >
+      <MockScreen
+        name="Variations"
+      />
+      <MockScreen
+        name="Targeting"
+      >
+        Screen: Targeting
+      </MockScreen>
+      <MockScreen
+        name="Allocation"
+      >
+        Screen: Allocation
+      </MockScreen>
+    </MockNavigator>
+  </View>
+</View>
+`;

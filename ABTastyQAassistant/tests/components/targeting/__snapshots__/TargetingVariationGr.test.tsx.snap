@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TargetingVariationGr should handle single targeting group 1`] = `
+<View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TargetingVariationGr should mark last targeting group correctly 1`] = `
+<View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings OR
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TargetingVariationGr should not show group name by default 1`] = `
+<View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings OR
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TargetingVariationGr should not show group name when showGroupNames is false 1`] = `
+<View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings OR
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TargetingVariationGr should pass all props to TargetingGroupItem 1`] = `
+<View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings OR
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TargetingVariationGr should render variation group with targeting groups 1`] = `
+<View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings OR
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TargetingVariationGr should show group name when showGroupNames is true 1`] = `
+<View>
+  <Text
+    style={
+      {
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "marginBottom": 10,
+      }
+    }
+  >
+    Variation Group A
+  </Text>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings OR
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginBottom": 15,
+      }
+    }
+    testID="targeting-group"
+  >
+    <Text>
+      Group: 1 targetings
+    </Text>
+  </View>
+</View>
+`;

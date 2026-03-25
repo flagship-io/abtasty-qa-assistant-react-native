@@ -1,0 +1,590 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TargetingItem should highlight matched values with success color 1`] = `
+<View
+  style={{}}
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "flexShrink": 0,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      device
+    </Text>
+    <Text
+      style={
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 15,
+          "borderWidth": 1,
+          "fontWeight": "600",
+          "marginHorizontal": 5,
+          "paddingHorizontal": 10,
+          "paddingVertical": 3,
+        }
+      }
+    >
+      EQUALS
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "borderRadius": 15,
+              "fontWeight": "600",
+              "paddingHorizontal": 10,
+              "paddingVertical": 3,
+            },
+            {
+              "backgroundColor": "#C7F4EE",
+            },
+          ]
+        }
+      >
+        mobile
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EDEDF2",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginVertical": 15,
+        "padding": 8,
+      }
+    }
+  >
+    AND
+  </Text>
+</View>
+`;
+
+exports[`TargetingItem should not show "AND" separator when last item 1`] = `
+<View
+  style={{}}
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "flexShrink": 0,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      age
+    </Text>
+    <Text
+      style={
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 15,
+          "borderWidth": 1,
+          "fontWeight": "600",
+          "marginHorizontal": 5,
+          "paddingHorizontal": 10,
+          "paddingVertical": 3,
+        }
+      }
+    >
+      GREATER_THAN
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "borderRadius": 15,
+              "fontWeight": "600",
+              "paddingHorizontal": 10,
+              "paddingVertical": 3,
+            },
+            {
+              "backgroundColor": "#DBE5FF",
+            },
+          ]
+        }
+      >
+        18
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TargetingItem should render "All Users" for fs_all_users targeting 1`] = `
+<View
+  style={{}}
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "flexShrink": 0,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      All Users
+    </Text>
+  </View>
+  <Text
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EDEDF2",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginVertical": 15,
+        "padding": 8,
+      }
+    }
+  >
+    AND
+  </Text>
+</View>
+`;
+
+exports[`TargetingItem should render array values with individual items 1`] = `
+<View
+  style={{}}
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "flexShrink": 0,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      countries
+    </Text>
+    <Text
+      style={
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 15,
+          "borderWidth": 1,
+          "fontWeight": "600",
+          "marginHorizontal": 5,
+          "paddingHorizontal": 10,
+          "paddingVertical": 3,
+        }
+      }
+    >
+      CONTAINS
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "borderRadius": 15,
+              "fontWeight": "600",
+              "paddingHorizontal": 10,
+              "paddingVertical": 3,
+            },
+            {
+              "backgroundColor": "#C7F4EE",
+            },
+          ]
+        }
+      >
+        US
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "borderRadius": 15,
+              "fontWeight": "600",
+              "paddingHorizontal": 10,
+              "paddingVertical": 3,
+            },
+            {
+              "backgroundColor": "#DBE5FF",
+            },
+          ]
+        }
+      >
+        FR
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "borderRadius": 15,
+              "fontWeight": "600",
+              "paddingHorizontal": 10,
+              "paddingVertical": 3,
+            },
+            {
+              "backgroundColor": "#DBE5FF",
+            },
+          ]
+        }
+      >
+        UK
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EDEDF2",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginVertical": 15,
+        "padding": 8,
+      }
+    }
+  >
+    AND
+  </Text>
+</View>
+`;
+
+exports[`TargetingItem should render key, operator, and value for regular targeting 1`] = `
+<View
+  style={{}}
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "flexShrink": 0,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      country
+    </Text>
+    <Text
+      style={
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 15,
+          "borderWidth": 1,
+          "fontWeight": "600",
+          "marginHorizontal": 5,
+          "paddingHorizontal": 10,
+          "paddingVertical": 3,
+        }
+      }
+    >
+      EQUALS
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "borderRadius": 15,
+              "fontWeight": "600",
+              "paddingHorizontal": 10,
+              "paddingVertical": 3,
+            },
+            {
+              "backgroundColor": "#DBE5FF",
+            },
+          ]
+        }
+      >
+        US
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EDEDF2",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginVertical": 15,
+        "padding": 8,
+      }
+    }
+  >
+    AND
+  </Text>
+</View>
+`;
+
+exports[`TargetingItem should render object values as JSON string 1`] = `
+<View
+  style={{}}
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "flexShrink": 0,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      metadata
+    </Text>
+    <Text
+      style={
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 15,
+          "borderWidth": 1,
+          "fontWeight": "600",
+          "marginHorizontal": 5,
+          "paddingHorizontal": 10,
+          "paddingVertical": 3,
+        }
+      }
+    >
+      EQUALS
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "borderRadius": 15,
+              "fontWeight": "600",
+              "paddingHorizontal": 10,
+              "paddingVertical": 3,
+            },
+            {
+              "backgroundColor": "#DBE5FF",
+            },
+          ]
+        }
+      >
+        {"platform":"iOS","version":"14"}
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EDEDF2",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginVertical": 15,
+        "padding": 8,
+      }
+    }
+  >
+    AND
+  </Text>
+</View>
+`;
+
+exports[`TargetingItem should show "AND" separator when not last item 1`] = `
+<View
+  style={{}}
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "flexShrink": 0,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      age
+    </Text>
+    <Text
+      style={
+        {
+          "backgroundColor": "#FCFCFD",
+          "borderColor": "#D8D8E2",
+          "borderRadius": 15,
+          "borderWidth": 1,
+          "fontWeight": "600",
+          "marginHorizontal": 5,
+          "paddingHorizontal": 10,
+          "paddingVertical": 3,
+        }
+      }
+    >
+      GREATER_THAN
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "borderRadius": 15,
+              "fontWeight": "600",
+              "paddingHorizontal": 10,
+              "paddingVertical": 3,
+            },
+            {
+              "backgroundColor": "#DBE5FF",
+            },
+          ]
+        }
+      >
+        18
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#EDEDF2",
+        "borderColor": "#D8D8E2",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginVertical": 15,
+        "padding": 8,
+      }
+    }
+  >
+    AND
+  </Text>
+</View>
+`;

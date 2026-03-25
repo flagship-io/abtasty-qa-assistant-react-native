@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`VariationScreen should handle multiple variations with active highlight 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    CollapsibleVariation: var-1, current=false
+  </Text>
+  <Text>
+    CollapsibleVariation: var-2, current=true
+  </Text>
+  <Text>
+    CollapsibleVariation: var-3, current=false
+  </Text>
+</ScrollView>
+`;
+
+exports[`VariationScreen should handle single variation 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    CollapsibleVariation: var-1, current=true
+  </Text>
+</ScrollView>
+`;
+
+exports[`VariationScreen should render current variation and collapsible variations 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    CollapsibleVariation: var-1, current=true
+  </Text>
+  <Text>
+    CollapsibleVariation: var-2, current=false
+  </Text>
+</ScrollView>
+`;
+
+exports[`VariationScreen should render scrollable list for many variations 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    CollapsibleVariation: var-1, current=false
+  </Text>
+  <Text>
+    CollapsibleVariation: var-2, current=false
+  </Text>
+  <Text>
+    CollapsibleVariation: var-3, current=false
+  </Text>
+  <Text>
+    CollapsibleVariation: var-4, current=false
+  </Text>
+  <Text>
+    CollapsibleVariation: var-5, current=true
+  </Text>
+  <Text>
+    CollapsibleVariation: var-6, current=false
+  </Text>
+  <Text>
+    CollapsibleVariation: var-7, current=false
+  </Text>
+  <Text>
+    CollapsibleVariation: var-8, current=false
+  </Text>
+  <Text>
+    CollapsibleVariation: var-9, current=false
+  </Text>
+  <Text>
+    CollapsibleVariation: var-10, current=false
+  </Text>
+</ScrollView>
+`;
+
+exports[`VariationScreen should render without current variation 1`] = `
+<ScrollView
+  style={
+    {
+      "backgroundColor": "#FCFCFD",
+      "flex": 1,
+    }
+  }
+>
+  <Text>
+    CollapsibleVariation: var-1, current=false
+  </Text>
+  <Text>
+    CollapsibleVariation: var-2, current=false
+  </Text>
+</ScrollView>
+`;

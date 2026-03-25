@@ -1,0 +1,856 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CampaignItem Component should display correct campaign type labels 1`] = `
+<TouchableOpacity
+  onPress={[Function]}
+  style={
+    {
+      "borderTopColor": "#F3F4F6",
+      "borderTopWidth": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          {
+            "color": "#111827",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Test Campaign
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 14,
+          }
+        }
+      >
+        A/B Test
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 16,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+              "paddingVertical": 6,
+            },
+            {
+              "backgroundColor": "#C7F4EE",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#00332B",
+              "fontSize": 13,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Accepted
+        </Text>
+      </View>
+      ChevronRightIcon
+    </View>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`CampaignItem Component should display correct campaign type labels 2`] = `
+<TouchableOpacity
+  onPress={[Function]}
+  style={
+    {
+      "borderTopColor": "#F3F4F6",
+      "borderTopWidth": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          {
+            "color": "#111827",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Test Campaign
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 14,
+          }
+        }
+      >
+        Feature toggle
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 16,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+              "paddingVertical": 6,
+            },
+            {
+              "backgroundColor": "#C7F4EE",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#00332B",
+              "fontSize": 13,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Accepted
+        </Text>
+      </View>
+      ChevronRightIcon
+    </View>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`CampaignItem Component should display correct campaign type labels 3`] = `
+<TouchableOpacity
+  onPress={[Function]}
+  style={
+    {
+      "borderTopColor": "#F3F4F6",
+      "borderTopWidth": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          {
+            "color": "#111827",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Test Campaign
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 14,
+          }
+        }
+      >
+        Personalization
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 16,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+              "paddingVertical": 6,
+            },
+            {
+              "backgroundColor": "#C7F4EE",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#00332B",
+              "fontSize": 13,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Accepted
+        </Text>
+      </View>
+      ChevronRightIcon
+    </View>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`CampaignItem Component should display correct campaign type labels 4`] = `
+<TouchableOpacity
+  onPress={[Function]}
+  style={
+    {
+      "borderTopColor": "#F3F4F6",
+      "borderTopWidth": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          {
+            "color": "#111827",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Test Campaign
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 14,
+          }
+        }
+      >
+        Rollout
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 16,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+              "paddingVertical": 6,
+            },
+            {
+              "backgroundColor": "#C7F4EE",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#00332B",
+              "fontSize": 13,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Accepted
+        </Text>
+      </View>
+      ChevronRightIcon
+    </View>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`CampaignItem Component should display correct campaign type labels 5`] = `
+<TouchableOpacity
+  onPress={[Function]}
+  style={
+    {
+      "borderTopColor": "#F3F4F6",
+      "borderTopWidth": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          {
+            "color": "#111827",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Test Campaign
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 14,
+          }
+        }
+      >
+        Campaign
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 16,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+              "paddingVertical": 6,
+            },
+            {
+              "backgroundColor": "#C7F4EE",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#00332B",
+              "fontSize": 13,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Accepted
+        </Text>
+      </View>
+      ChevronRightIcon
+    </View>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`CampaignItem Component should render campaign name 1`] = `
+<TouchableOpacity
+  onPress={[Function]}
+  style={
+    {
+      "borderTopColor": "#F3F4F6",
+      "borderTopWidth": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          {
+            "color": "#111827",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        My Test Campaign
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 14,
+          }
+        }
+      >
+        A/B Test
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 16,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+              "paddingVertical": 6,
+            },
+            {
+              "backgroundColor": "#C7F4EE",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#00332B",
+              "fontSize": 13,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Accepted
+        </Text>
+      </View>
+      ChevronRightIcon
+    </View>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`CampaignItem Component should render with different display statuses 1`] = `
+<TouchableOpacity
+  onPress={[Function]}
+  style={
+    {
+      "borderTopColor": "#F3F4F6",
+      "borderTopWidth": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          {
+            "color": "#111827",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Test Campaign
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 14,
+          }
+        }
+      >
+        A/B Test
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 16,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+              "paddingVertical": 6,
+            },
+            {
+              "backgroundColor": "#C7F4EE",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#00332B",
+              "fontSize": 13,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Accepted
+        </Text>
+      </View>
+      ChevronRightIcon
+    </View>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`CampaignItem Component should render with different display statuses 2`] = `
+<TouchableOpacity
+  onPress={[Function]}
+  style={
+    {
+      "borderTopColor": "#F3F4F6",
+      "borderTopWidth": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          {
+            "color": "#111827",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Test Campaign
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 14,
+          }
+        }
+      >
+        A/B Test
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 16,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+              "paddingVertical": 6,
+            },
+            {
+              "backgroundColor": "#FED1CD",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#310502",
+              "fontSize": 13,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Rejected
+        </Text>
+      </View>
+      ChevronRightIcon
+    </View>
+  </View>
+</TouchableOpacity>
+`;
+
+exports[`CampaignItem Component should render with different display statuses 3`] = `
+<TouchableOpacity
+  onPress={[Function]}
+  style={
+    {
+      "borderTopColor": "#F3F4F6",
+      "borderTopWidth": 1,
+      "paddingHorizontal": 20,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          {
+            "color": "#111827",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Test Campaign
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 14,
+          }
+        }
+      >
+        A/B Test
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 8,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 16,
+              "justifyContent": "center",
+              "paddingHorizontal": 12,
+              "paddingVertical": 6,
+            },
+            {
+              "backgroundColor": "#FFECBD",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4D3700",
+              "fontSize": 13,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Hidden
+        </Text>
+      </View>
+      ChevronRightIcon
+    </View>
+  </View>
+</TouchableOpacity>
+`;

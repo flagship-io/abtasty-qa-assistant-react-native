@@ -1,0 +1,866 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CollapsibleCampaigns Component should render collapsed by default 1`] = `
+<View
+  style={
+    {
+      "borderBottomColor": "#E5E7EB",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#D8D8E2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    ChevronDownIcon
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 16,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+            "paddingVertical": 6,
+          },
+          {
+            "backgroundColor": "#C7F4EE",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#00332B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Accepted
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      2
+       campaign
+      s
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CollapsibleCampaigns Component should render expanded when defaultExpanded is true 1`] = `
+<View
+  style={
+    {
+      "borderBottomColor": "#E5E7EB",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#D8D8E2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    ChevronUpIcon
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 16,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+            "paddingVertical": 6,
+          },
+          {
+            "backgroundColor": "#C7F4EE",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#00332B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Accepted
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      2
+       campaign
+      s
+    </Text>
+  </TouchableOpacity>
+  <View>
+    <TouchableOpacity
+      onPress={[Function]}
+      style={
+        {
+          "borderTopColor": "#F3F4F6",
+          "borderTopWidth": 1,
+          "paddingHorizontal": 20,
+          "paddingVertical": 16,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flex": 1,
+              "gap": 4,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              {
+                "color": "#111827",
+                "fontSize": 16,
+                "fontWeight": "600",
+              }
+            }
+          >
+            Campaign 1
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#6B7280",
+                "fontSize": 14,
+              }
+            }
+          >
+            A/B Test
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "gap": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "borderRadius": 16,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 6,
+                },
+                {
+                  "backgroundColor": "#C7F4EE",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#00332B",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                }
+              }
+            >
+              Accepted
+            </Text>
+          </View>
+          ChevronRightIcon
+        </View>
+      </View>
+    </TouchableOpacity>
+    <TouchableOpacity
+      onPress={[Function]}
+      style={
+        {
+          "borderTopColor": "#F3F4F6",
+          "borderTopWidth": 1,
+          "paddingHorizontal": 20,
+          "paddingVertical": 16,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flex": 1,
+              "gap": 4,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              {
+                "color": "#111827",
+                "fontSize": 16,
+                "fontWeight": "600",
+              }
+            }
+          >
+            Campaign 2
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#6B7280",
+                "fontSize": 14,
+              }
+            }
+          >
+            A/B Test
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "gap": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "borderRadius": 16,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 6,
+                },
+                {
+                  "backgroundColor": "#C7F4EE",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#00332B",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                }
+              }
+            >
+              Accepted
+            </Text>
+          </View>
+          ChevronRightIcon
+        </View>
+      </View>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`CollapsibleCampaigns Component should render with different badge statuses 1`] = `
+<View
+  style={
+    {
+      "borderBottomColor": "#E5E7EB",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#D8D8E2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    ChevronDownIcon
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 16,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+            "paddingVertical": 6,
+          },
+          {
+            "backgroundColor": "#C7F4EE",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#00332B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Accepted
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      2
+       campaign
+      s
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CollapsibleCampaigns Component should render with different badge statuses 2`] = `
+<View
+  style={
+    {
+      "borderBottomColor": "#E5E7EB",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#D8D8E2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    ChevronDownIcon
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 16,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+            "paddingVertical": 6,
+          },
+          {
+            "backgroundColor": "#FED1CD",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#310502",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Rejected
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      2
+       campaign
+      s
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CollapsibleCampaigns Component should render with different badge statuses 3`] = `
+<View
+  style={
+    {
+      "borderBottomColor": "#E5E7EB",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#D8D8E2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    ChevronDownIcon
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 16,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+            "paddingVertical": 6,
+          },
+          {
+            "backgroundColor": "#FFECBD",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#4D3700",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Hidden
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      2
+       campaign
+      s
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CollapsibleCampaigns Component should render with empty campaigns array 1`] = `
+<View
+  style={
+    {
+      "borderBottomColor": "#E5E7EB",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#D8D8E2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    ChevronDownIcon
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 16,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+            "paddingVertical": 6,
+          },
+          {
+            "backgroundColor": "#C7F4EE",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#00332B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Accepted
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      0
+       campaign
+      s
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CollapsibleCampaigns Component should show correct campaign count for multiple campaigns 1`] = `
+<View
+  style={
+    {
+      "borderBottomColor": "#E5E7EB",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#D8D8E2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    ChevronDownIcon
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 16,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+            "paddingVertical": 6,
+          },
+          {
+            "backgroundColor": "#C7F4EE",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#00332B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Accepted
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      2
+       campaign
+      s
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CollapsibleCampaigns Component should show singular text for single campaign 1`] = `
+<View
+  style={
+    {
+      "borderBottomColor": "#E5E7EB",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#D8D8E2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    ChevronDownIcon
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 16,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+            "paddingVertical": 6,
+          },
+          {
+            "backgroundColor": "#C7F4EE",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#00332B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Accepted
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      1
+       campaign
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CollapsibleCampaigns Component should toggle expanded state on header press 1`] = `
+<View
+  style={
+    {
+      "borderBottomColor": "#E5E7EB",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#D8D8E2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    ChevronDownIcon
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 16,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+            "paddingVertical": 6,
+          },
+          {
+            "backgroundColor": "#C7F4EE",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#00332B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Accepted
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      2
+       campaign
+      s
+    </Text>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`CollapsibleCampaigns Component should toggle expanded state on header press 2`] = `
+<View
+  style={
+    {
+      "borderBottomColor": "#E5E7EB",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <TouchableOpacity
+    onPress={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#D8D8E2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    ChevronDownIcon
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 16,
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+            "paddingVertical": 6,
+          },
+          {
+            "backgroundColor": "#C7F4EE",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#00332B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Accepted
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      2
+       campaign
+      s
+    </Text>
+  </TouchableOpacity>
+</View>
+`;

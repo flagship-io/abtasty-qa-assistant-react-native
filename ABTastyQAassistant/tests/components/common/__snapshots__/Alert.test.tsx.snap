@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Alert Component should apply custom styles 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "gap": 5,
+        "marginBottom": 15,
+        "padding": 15,
+      },
+      {
+        "backgroundColor": "#FFECBD",
+      },
+      {
+        "marginTop": 20,
+      },
+    ]
+  }
+>
+  WarningIcon
+  <Text
+    style={
+      [
+        {
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Styled alert
+  </Text>
+</View>
+`;
+
+exports[`Alert Component should render with custom icon configurations 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "gap": 5,
+        "marginBottom": 15,
+        "padding": 15,
+      },
+      {
+        "backgroundColor": "#FFECBD",
+      },
+      undefined,
+    ]
+  }
+>
+  CustomIcon
+  <Text
+    style={
+      [
+        {
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    Custom icon
+  </Text>
+</View>
+`;
+
+exports[`Alert Component should render with custom icon configurations 2`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "gap": 5,
+        "marginBottom": 15,
+        "padding": 15,
+      },
+      {
+        "backgroundColor": "#FFECBD",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    No icon
+  </Text>
+</View>
+`;
+
+exports[`Alert Component should render with custom icon configurations 3`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "gap": 5,
+        "marginBottom": 15,
+        "padding": 15,
+      },
+      {
+        "backgroundColor": "#FFECBD",
+      },
+      undefined,
+    ]
+  }
+>
+  WarningIcon
+  <Text
+    style={
+      [
+        {
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    Large icon
+  </Text>
+</View>
+`;
+
+exports[`Alert Component should render with different alert types 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "gap": 5,
+        "marginBottom": 15,
+        "padding": 15,
+      },
+      {
+        "backgroundColor": "#FFECBD",
+      },
+      undefined,
+    ]
+  }
+>
+  WarningIcon
+  <Text
+    style={
+      [
+        {
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    Warning
+  </Text>
+</View>
+`;
+
+exports[`Alert Component should render with different alert types 2`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "gap": 5,
+        "marginBottom": 15,
+        "padding": 15,
+      },
+      {
+        "backgroundColor": "#FED1CD",
+      },
+      undefined,
+    ]
+  }
+>
+  WarningIcon
+  <Text
+    style={
+      [
+        {
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    Error message
+  </Text>
+</View>
+`;
+
+exports[`Alert Component should render with different alert types 3`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "gap": 5,
+        "marginBottom": 15,
+        "padding": 15,
+      },
+      {
+        "backgroundColor": "#DBE5FF",
+      },
+      undefined,
+    ]
+  }
+>
+  WarningIcon
+  <Text
+    style={
+      [
+        {
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    Info message
+  </Text>
+</View>
+`;
+
+exports[`Alert Component should render with different alert types 4`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "gap": 5,
+        "marginBottom": 15,
+        "padding": 15,
+      },
+      {
+        "backgroundColor": "#C7F4EE",
+      },
+      undefined,
+    ]
+  }
+>
+  WarningIcon
+  <Text
+    style={
+      [
+        {
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    Success message
+  </Text>
+</View>
+`;
