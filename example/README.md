@@ -1,3 +1,9 @@
+[![codecov](https://codecov.io/gh/flagship-io/abtasty-qa-assistant-react-native/graph/badge.svg?token=AgMFXB2oHw)](https://codecov.io/gh/flagship-io/abtasty-qa-assistant-react-native)
+[![npm version](https://badge.fury.io/js/%40abtasty%2Fqa-assistant-react-native.svg)](https://badge.fury.io/js/%40abtasty%2Fqa-assistant-react-native)
+[![CI](https://github.com/flagship-io/abtasty-qa-assistant-react-native/actions/workflows/ci.yml/badge.svg)](https://github.com/flagship-io/abtasty-qa-assistant-react-native/actions/workflows/ci.yml)
+
+---
+
 # ABTasty QA Assistant - Demo App
 
 This is an [Expo](https://expo.dev) demo application showcasing the **@abtasty/qa-assistant-react-native** package. This example demonstrates how to integrate and use the QA Assistant for ABTasty Feature Experimentation in React Native.

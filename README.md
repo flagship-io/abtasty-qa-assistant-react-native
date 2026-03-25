@@ -1,3 +1,9 @@
+[![codecov](https://codecov.io/gh/flagship-io/abtasty-qa-assistant-react-native/graph/badge.svg?token=AgMFXB2oHw)](https://codecov.io/gh/flagship-io/abtasty-qa-assistant-react-native)
+[![npm version](https://badge.fury.io/js/%40abtasty%2Fqa-assistant-react-native.svg)](https://badge.fury.io/js/%40abtasty%2Fqa-assistant-react-native)
+[![CI](https://github.com/flagship-io/abtasty-qa-assistant-react-native/actions/workflows/ci.yml/badge.svg)](https://github.com/flagship-io/abtasty-qa-assistant-react-native/actions/workflows/ci.yml)
+
+---
+
 # ABTasty QA Assistant for React Native
 
 A visual testing tool for React Native applications that integrates with ABTasty Feature Experimentation. It provides a floating UI overlay that allows developers and QA engineers to test campaign variations and feature flags without backend changes or app redeployment.
