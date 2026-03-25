@@ -1,0 +1,58 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - 1.[0-9]+.[0-9]+
+
+jobs:
+  publish:
+    name: Publish to npm
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write   # required for npm provenance
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Enable Corepack (Yarn 4)
+        run: corepack enable
+
+      - name: Activate Yarn 4.11.0
+        run: corepack prepare yarn@4.11.0 --activate
+
+      - name: Cache Yarn cache directory
+        uses: actions/cache@v4
+        with:
+          path: .yarn/cache
+          key: yarn-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            yarn-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Run tests
+        working-directory: ABTastyQAassistant
+        run: yarn test:ci
+
+      - name: Build
+        working-directory: ABTastyQAassistant
+        run: yarn build
+
+      - name: Verify package contents
+        working-directory: ABTastyQAassistant
+        run: yarn pack --dry-run
+
+      - name: Publish to npm
+        working-directory: ABTastyQAassistant
+        run: yarn npm publish --access public
+        env:
+          YARN_NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
