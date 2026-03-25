@@ -25,21 +25,21 @@ module.exports = {
     '!src/**/*.stories.{ts,tsx}',
     '!src/**/__tests__/**',
     '!src/**/__mocks__/**',
+    '!src/assets/icons/**',
   ],
   coverageReporters: ['text', 'lcov', 'html', 'json-summary'],
   coverageDirectory: 'coverage',
   transformIgnorePatterns: [
     'node_modules/(?!(react-native|@react-native|@testing-library/react-native|@flagship\.io)/)',
   ],
-  // Coverage thresholds temporarily disabled until React import issues are resolved
-  // coverageThreshold: {
-  //   global: {
-  //     branches: 70,
-  //     functions: 70,
-  //     lines: 70,
-  //     statements: 70,
-  //   },
-  // },
+  coverageThreshold: {
+    global: {
+      branches: 90,
+      functions: 90,
+      lines: 90,
+      statements: 90,
+    },
+  },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
     '^@tests/(.*)$': '<rootDir>/tests/$1',

@@ -319,4 +319,208 @@ describe('Reducer Actions', () => {
       expect(newState.displayedAcceptedCampaigns).toHaveLength(1);
     });
   });
+
+  describe('classifyCampaign via splitCampaignsByAllocation', () => {
+    it('should classify allocated campaign with forced allocation as rejected/reset', () => {
+      const stateWithForcedAllocation = createMockAppDataState({
+        bucketingFile: {
+          campaigns: [mockCampaign],
+          panic: false,
+        },
+        variationsForcedAllocation: {
+          [mockCampaign.id]: {
+            campaignId: mockCampaign.id,
+            campaignName: mockCampaign.name,
+            campaignType: mockCampaign.type,
+            variationGroupId: 'vg-1',
+            variationGroupName: 'Test VG',
+            variation: mockVariation,
+          },
+        },
+      });
+
+      const action: splitCampaignsByAllocationAction = {
+        type: 'SPLIT_CAMPAIGNS_BY_ALLOCATION',
+        payload: {
+          value: {
+            [mockCampaign.id]: {
+              campaignId: mockCampaign.id,
+              variationGroupId: 'vg-1',
+              variationId: mockVariation.id,
+            },
+          },
+          visitorData: {
+            visitorId: 'visitor-123',
+            context: { platform: 'mobile' },
+            hasConsented: true,
+          },
+        },
+      };
+
+      const newState = splitCampaignsByAllocation(stateWithForcedAllocation, action);
+
+      // allocated + forcedAllocation => rejected with RESET status
+      expect(newState.allRejectedCampaigns).toHaveLength(1);
+      expect(newState.allRejectedCampaigns[0].displayStatus).toBe(CampaignDisplayStatus.RESET);
+    });
+
+    it('should classify allocated campaign with forced unallocation as accepted/reset', () => {
+      const stateWithForcedUnallocation = createMockAppDataState({
+        bucketingFile: {
+          campaigns: [mockCampaign],
+          panic: false,
+        },
+        variationsForcedUnallocation: {
+          [mockCampaign.id]: {
+            campaignId: mockCampaign.id,
+            campaignName: mockCampaign.name,
+            campaignType: mockCampaign.type,
+            variationGroupId: 'vg-1',
+            variationGroupName: 'Test VG',
+            variation: mockVariation,
+          },
+        },
+      });
+
+      const action: splitCampaignsByAllocationAction = {
+        type: 'SPLIT_CAMPAIGNS_BY_ALLOCATION',
+        payload: {
+          value: {
+            [mockCampaign.id]: {
+              campaignId: mockCampaign.id,
+              variationGroupId: 'vg-1',
+              variationId: mockVariation.id,
+            },
+          },
+          visitorData: {
+            visitorId: 'visitor-123',
+            context: { platform: 'mobile' },
+            hasConsented: true,
+          },
+        },
+      };
+
+      const newState = splitCampaignsByAllocation(stateWithForcedUnallocation, action);
+
+      // allocated + forcedUnallocation => accepted with RESET status
+      expect(newState.allAcceptedCampaigns).toHaveLength(1);
+      expect(newState.allAcceptedCampaigns[0].displayStatus).toBe(CampaignDisplayStatus.RESET);
+    });
+
+    it('should classify unallocated campaign with forced unallocation as accepted/reset', () => {
+      const stateWithForcedUnallocation = createMockAppDataState({
+        bucketingFile: {
+          campaigns: [mockCampaign],
+          panic: false,
+        },
+        variationsForcedUnallocation: {
+          [mockCampaign.id]: {
+            campaignId: mockCampaign.id,
+            campaignName: mockCampaign.name,
+            campaignType: mockCampaign.type,
+            variationGroupId: 'vg-1',
+            variationGroupName: 'Test VG',
+            variation: mockVariation,
+          },
+        },
+      });
+
+      const action: splitCampaignsByAllocationAction = {
+        type: 'SPLIT_CAMPAIGNS_BY_ALLOCATION',
+        payload: {
+          value: {},
+          visitorData: {
+            visitorId: 'visitor-123',
+            context: { platform: 'mobile' },
+            hasConsented: true,
+          },
+        },
+      };
+
+      const newState = splitCampaignsByAllocation(stateWithForcedUnallocation, action);
+
+      // unallocated + forcedUnallocation => accepted with RESET
+      expect(newState.allAcceptedCampaigns).toHaveLength(1);
+      expect(newState.allAcceptedCampaigns[0].displayStatus).toBe(CampaignDisplayStatus.RESET);
+    });
+
+    it('should classify unallocated campaign with forced allocation as rejected/reset', () => {
+      const stateWithForcedAllocation = createMockAppDataState({
+        bucketingFile: {
+          campaigns: [mockCampaign],
+          panic: false,
+        },
+        variationsForcedAllocation: {
+          [mockCampaign.id]: {
+            campaignId: mockCampaign.id,
+            campaignName: mockCampaign.name,
+            campaignType: mockCampaign.type,
+            variationGroupId: 'vg-1',
+            variationGroupName: 'Test VG',
+            variation: mockVariation,
+          },
+        },
+      });
+
+      const action: splitCampaignsByAllocationAction = {
+        type: 'SPLIT_CAMPAIGNS_BY_ALLOCATION',
+        payload: {
+          value: {},
+          visitorData: {
+            visitorId: 'visitor-123',
+            context: { platform: 'mobile' },
+            hasConsented: true,
+          },
+        },
+      };
+
+      const newState = splitCampaignsByAllocation(stateWithForcedAllocation, action);
+
+      // unallocated + forcedAllocation => rejected with RESET
+      expect(newState.allRejectedCampaigns).toHaveLength(1);
+      expect(newState.allRejectedCampaigns[0].displayStatus).toBe(CampaignDisplayStatus.RESET);
+    });
+
+    it('should filter campaigns with active search when splitting by allocation', () => {
+      const campaign1 = { ...mockCampaign, id: 'camp-1', name: 'Alpha Campaign' };
+      const campaign2 = { ...mockCampaign, id: 'camp-2', name: 'Beta Campaign' };
+
+      const stateWithSearch = createMockAppDataState({
+        bucketingFile: {
+          campaigns: [campaign1, campaign2],
+          panic: false,
+        },
+        searchValue: 'Alpha',
+      });
+
+      const action: splitCampaignsByAllocationAction = {
+        type: 'SPLIT_CAMPAIGNS_BY_ALLOCATION',
+        payload: {
+          value: {
+            'camp-1': {
+              campaignId: 'camp-1',
+              variationGroupId: 'vg-1',
+              variationId: mockVariation.id,
+            },
+            'camp-2': {
+              campaignId: 'camp-2',
+              variationGroupId: 'vg-1',
+              variationId: mockVariation.id,
+            },
+          },
+          visitorData: {
+            visitorId: 'visitor-123',
+            context: { platform: 'mobile' },
+            hasConsented: true,
+          },
+        },
+      };
+
+      const newState = splitCampaignsByAllocation(stateWithSearch, action);
+
+      expect(newState.allAcceptedCampaigns).toHaveLength(2);
+      expect(newState.displayedAcceptedCampaigns).toHaveLength(1);
+      expect(newState.displayedAcceptedCampaigns[0].name).toBe('Alpha Campaign');
+    });
+  });
 });

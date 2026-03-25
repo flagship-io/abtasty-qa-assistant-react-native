@@ -87,22 +87,32 @@ jest.mock('react-native', () => {
   };
 });
 
-// Mock react-native-svg
-jest.mock('react-native-svg', () => ({
-  Svg: 'Svg',
-  Path: 'Path',
-  G: 'G',
-  Circle: 'Circle',
-  Rect: 'Rect',
-  Line: 'Line',
-  Polygon: 'Polygon',
-  Polyline: 'Polyline',
-  Ellipse: 'Ellipse',
-  Defs: 'Defs',
-  LinearGradient: 'LinearGradient',
-  Stop: 'Stop',
-  ClipPath: 'ClipPath',
-}));
+// Mock react-native-svg with functional components for proper coverage
+jest.mock('react-native-svg', () => {
+  const React = require('react');
+  const createSvgMock = (name) => {
+    const component = ({ children, ...props }) => React.createElement(name, props, children);
+    component.displayName = name;
+    return component;
+  };
+  return {
+    __esModule: true,
+    default: createSvgMock('Svg'),
+    Svg: createSvgMock('Svg'),
+    Path: createSvgMock('Path'),
+    G: createSvgMock('G'),
+    Circle: createSvgMock('Circle'),
+    Rect: createSvgMock('Rect'),
+    Line: createSvgMock('Line'),
+    Polygon: createSvgMock('Polygon'),
+    Polyline: createSvgMock('Polyline'),
+    Ellipse: createSvgMock('Ellipse'),
+    Defs: createSvgMock('Defs'),
+    LinearGradient: createSvgMock('LinearGradient'),
+    Stop: createSvgMock('Stop'),
+    ClipPath: createSvgMock('ClipPath'),
+  };
+});
 
 
 

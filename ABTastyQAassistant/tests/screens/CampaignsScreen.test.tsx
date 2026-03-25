@@ -162,7 +162,21 @@ describe('CampaignsScreen', () => {
     });
 
     render(<CampaignsPage />);
-    
+
     expect(mockUseSDKSync).toHaveBeenCalled();
+  });
+
+  it('should handle null/undefined displayedCampaigns gracefully', () => {
+    useAppContext.mockReturnValue({
+      appDataState: {
+        displayedAcceptedCampaigns: null,
+        displayedRejectedCampaigns: undefined,
+      },
+      dispatchAppData: mockDispatchAppData,
+    });
+
+    const { getByText } = render(<CampaignsPage />);
+
+    expect(getByText('SummaryBar: 0 campaigns')).toBeTruthy();
   });
 });
