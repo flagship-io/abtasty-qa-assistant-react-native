@@ -160,9 +160,17 @@ describe('CampaignDetailsScreen', () => {
 
   it('should pass campaign ID to nested screens via params', () => {
     const { toJSON } = render(<CampaignDetailsScreen />);
-    
+
     // Verify that the navigator is set up with the correct structure
     expect(useCampaign).toHaveBeenCalledWith('camp-1');
     expect(toJSON()).toMatchSnapshot();
+  });
+
+  it('should render error message when campaign is not found', () => {
+    useCampaign.mockReturnValue(null);
+
+    const { getByText } = render(<CampaignDetailsScreen />);
+
+    expect(getByText('Campaign not found')).toBeTruthy();
   });
 });

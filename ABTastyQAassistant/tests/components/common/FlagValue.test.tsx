@@ -119,4 +119,10 @@ describe("FlagValue Component", () => {
     const { toJSON } = render(<FlagValue modifications={modifications} />);
     expect(toJSON()).toMatchSnapshot();
   });
+
+  it("should format undefined value inside modifications object", () => {
+    const modifications = { undefinedKey: undefined };
+    const { getByText } = render(<FlagValue modifications={modifications} />);
+    expect(getByText("undefined")).toBeTruthy();
+  });
 });

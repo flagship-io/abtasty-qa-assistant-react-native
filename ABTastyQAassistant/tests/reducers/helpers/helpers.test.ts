@@ -482,14 +482,40 @@ describe('matchesTargetingCriteria - Advanced Operators', () => {
       hasConsented: true,
       context: {},
     };
-    
+
     const targeting: Targetings = {
       key: 'country',
       operator: TargetingOperator.EQUALS,
       value: ['US', 'UK'],
     };
-    
+
     expect(matchesTargetingCriteria(targeting, ['US', 'UK'], visitorDataNoCountry)).toBe(false);
+  });
+
+  it('should return false when matchesArrayTargeting receives non-array targeting.value', () => {
+    const targeting: Targetings = {
+      key: 'country',
+      operator: TargetingOperator.EQUALS,
+      value: 'not-an-array',
+    };
+
+    // Pass an array as targetingValue to trigger the Array.isArray(targetingValue) branch
+    // which calls matchesArrayTargeting, but targeting.value is not an array
+    // We need to trick it: targetingValue is array, but targeting.value is a string
+    const modifiedTargeting: Targetings = {
+      ...targeting,
+      value: 'single-value' as any,
+    };
+
+    const visitorDataWithCountry: VisitorData = {
+      visitorId: 'visitor-123',
+      hasConsented: true,
+      context: { country: 'US' },
+    };
+
+    // When targetingValue is an array, matchesArrayTargeting is called
+    // Inside, it checks Array.isArray(targeting.value) - which is false for 'single-value'
+    expect(matchesTargetingCriteria(modifiedTargeting, ['US', 'UK'], visitorDataWithCountry)).toBe(false);
   });
 });
 
