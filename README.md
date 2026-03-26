@@ -310,7 +310,7 @@ Apache-2.0
 
 ## Support
 
-- GitHub: [abtasty/qa-assistant-react-native](https://github.com/abtasty/qa-assistant-react-native)
+- GitHub: [abtasty/qa-assistant-react-native](https://github.com/flagship-io/abtasty-qa-assistant-react-native)
 - Documentation: [docs.abtasty.com/server-side/sdks/react-native/abtasty-qa-assistant-for-react-native](https://docs.abtasty.com/server-side/sdks/react-native/abtasty-qa-assistant-for-react-native)
 - Flagship SDK docs: [docs.developers.flagship.io](https://docs.developers.flagship.io/)
 - ABTasty Support: https://support.abtasty.com/

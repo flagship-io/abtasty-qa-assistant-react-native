@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abtasty/qa-assistant-react-native.git"
+    "url": "git+https://github.com/flagship-io/abtasty-qa-assistant-react-native.git"
   },
   "files": [
     "dist",
